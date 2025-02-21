@@ -7,6 +7,9 @@ export default {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    print: {
+      photo: true
+    },
     extend: {
       colors: {
         background: "var(--background)",
