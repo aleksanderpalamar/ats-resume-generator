@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# ATS Resume Generator
 
-First, run the development server:
+**Descrição**
+--------
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Este projeto é um aplicativo de currículo online que permite aos usuários criar e gerenciar seus currículos de forma fácil e eficiente.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Funcionalidades**
+----------------
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+*   Criação de currículos personalizados
+*   Gerenciamento de experiência profissional e educação
+*   Adição de habilidades e competências
+*   Visualização de currículos em formato de impressão
+*   Compartilhamento de currículos por e-mail ou link
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Tecnologias Utilizadas**
+-------------------------
 
-## Learn More
+*   React
+*   TypeScript
+*   Next.js
+*   Tailwind CSS
 
-To learn more about Next.js, take a look at the following resources:
+**Instalação e Execução**
+-------------------------
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1.  Clone o repositório: `git clone git@github.com:aleksanderpalamar/ats-resume-generator.git`
+2.  Instale as dependências: `npm install` ou `yarn install`
+3.  Execute o aplicativo: `npm start` ou `yarn start`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Estrutura do Projeto**
+-----------------------
 
-## Deploy on Vercel
+*   `components`: pasta que contém os componentes React utilizados no aplicativo
+*   `context`: pasta que contém os contextos utilizados no aplicativo
+*   `providers`: pasta que contém os providers utilizados no aplicativo
+*   `pages`: pasta que contém as páginas do aplicativo
+*   `public`: pasta que contém os arquivos estáticos do aplicativo
+*   `styles`: pasta que contém os estilos CSS do aplicativo
+*   `utils`: pasta que contém as funções de utilidade do aplicativo
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Contribuição**
+--------------
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Se você deseja contribuir com o projeto, por favor, siga os seguintes passos:
+
+1.  Faça um fork do repositório
+2.  Crie uma branch para sua feature ou correção
+3.  Faça as alterações necessárias
+4.  Abra um pull request para a branch principal
+
+**Licença**
+-------
+
+Este projeto é licenciado sob a licença [MIT](https://opensource.org/licenses/MIT).
+
+**Contato**
+---------
+
+Se você tiver alguma dúvida ou precisar de ajuda, por favor, entre em contato comigo pelo e-mail [seu-e-mail](mailto:apalamar@live.com).
