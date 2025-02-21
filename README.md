@@ -54,7 +54,7 @@ Se você deseja contribuir com o projeto, por favor, siga os seguintes passos:
 **Licença**
 -------
 
-Este projeto é licenciado sob a licença [MIT](https://opensource.org/licenses/MIT).
+Este projeto é licenciado sob a licença [MIT](https://github.com/aleksanderpalamar/ats-resume-generator/blob/main/LICENSE).
 
 **Contato**
 ---------
