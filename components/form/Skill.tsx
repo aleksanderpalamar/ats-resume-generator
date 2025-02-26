@@ -53,7 +53,9 @@ export const Skill = ({ title }: { title: string }) => {
 
   return (
     <div className="flex flex-col gap-2">
-      <h2 className="text-lg font-bold text-zinc-900">{title}</h2>
+      <h2 className="text-lg font-bold text-zinc-900">
+        Habilidades {title}
+      </h2>
       {skillType?.skills.map((skill, index) => (
         <div key={index} className="flex flex-col gap-2 flex-wrap">
           <input

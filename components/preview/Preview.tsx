@@ -150,6 +150,9 @@ const DragAndDropResume: React.FC = () => {
                   onDrop={(e) => handleDrop(e, `SKILLS-${index}`)}
                   className={`mb-1 ${dragging === `SKILLS-${index}` ? "opacity-50" : ""}`}
                 >
+                  <h2 className="section-title mb-1 border-b-2 border-zinc-300 text-zinc-800 font-medium">
+                    Habilidades
+                  </h2>
                   <p className="content text-zinc-800 font-medium">
                     {skill.title}
                   </p>
